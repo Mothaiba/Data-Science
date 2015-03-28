@@ -1,5 +1,5 @@
 AUTHOR
-	I'm Phung Minh Tung, and of course I'm not the author of this algorithm
+	I'm Phung Minh Tung, and of course I'm not the author of this algorithm, I just implemented it
 	No copyright reserved, you can do anything with this!
 	If this helps, or something wrong happens, feel free to message me: tungphung2907@gmail.com
 	Best wishes for you!
