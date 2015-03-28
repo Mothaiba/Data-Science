@@ -1,3 +1,9 @@
+"""
+    FP-Growth algorithm implemented by Phung Minh Tung
+    No copyright reserved
+    You are free to do anything with this
+    Have fun!
+"""
 import numpy as np
 import scipy as sp
 import math
@@ -213,34 +219,6 @@ def buildTree(data):
                     
     return FPTree,itemTrace
 
-
-
-
-
-transList2 =[
-    [1,2,3],
-    [2,4,1,5],
-    [3,1,5]
-
-]
-transList = [
-    [2,3,4,5],
-    [3,6,2,1,5],
-    [1,2,5,6],
-    [5,6,1,2,7],
-    [2,1,3]
-]
-res = []
-gen = frequent_Pattern_fpGrowth(transList2,1)
-for p in gen:
-    res.append(p)
-#res.remove(([],maxInt))
-#for pattern,sup in res:
-#    pattern.sort()
-res.sort()
-print 'Frequent Patterns: '
-print res
-    
 
 
 
